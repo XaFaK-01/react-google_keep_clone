@@ -1,0 +1,11 @@
+.DeleteButton {
+  text-align: end;
+}
+
+.DeleteButton img {
+  height: 20px;
+}
+
+.DeleteButton img:hover {
+  cursor: pointer;
+}

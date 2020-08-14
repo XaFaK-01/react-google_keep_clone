@@ -1,0 +1,67 @@
+.NoteClosed {
+  border-radius: 7px;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  background: #202124;
+  background-color: #202124;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 0;
+  transition: width 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.NoteClosed h1 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  font-weight: bolder;
+}
+
+.NoteClosed p:hover {
+  cursor: pointer;
+}
+
+.NoteClosed p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.NoteOpened {
+  border-radius: 7px;
+  padding: 10px;
+  width: 600px;
+  float: left;
+  background: #202124;
+  background-color: #202124;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 0;
+
+  position: absolute;
+  margin: 50px auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  transition: width 1s;
+  transition-timing-function: ease-in-out;
+}
+.NoteOpened h1 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  font-weight: bolder;
+  min-height: 60px;
+}
+
+.NoteOpened p:hover {
+  /* cursor: pointer; */
+}
+
+.NoteOpened p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

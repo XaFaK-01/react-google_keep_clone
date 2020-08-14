@@ -1,7 +1,7 @@
 # Keep Notes
 
 A simple Google Keep Note clone made with React.js
-
+The code has been provided with initial three sample cases for preview purpose only. Those can be removed and the app can be made to function completely dynamic.
 ## Screenshots
 
 ![Desktop preview for Keep Notes](./images/keep_notes_screenshot.png)
